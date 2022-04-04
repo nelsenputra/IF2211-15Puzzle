@@ -72,7 +72,7 @@ def solveCaller():
                 visualize_button.place(x = 110, y = 220)
                 reset_button.place(x = 185, y = 255)
             else:
-                showinfo('Solution', 'The puzzle doesnt have solution!')
+                showinfo('Solution', 'The puzzle doesn\'t have any solution!')
                 puzzleInit = copy.deepcopy(psolver.puzzle)
                 moves = []
             tempKurang = copy.deepcopy(psolver.tempKurang)
@@ -110,7 +110,7 @@ def saveFile():
     count = 0
     if (len(moves) > 0):
         f = fd.asksaveasfile(initialfile = 'Untitled.txt', defaultextension = ".txt", filetypes = [("All Files", "*.*"), ("Text Documents", "*.txt")])
-        f.write("SOLUTION : \n")
+        f.write("SOLUTION STEPS: \n")
         f.write("\n")
         for dxy in moves:
             count += 1
@@ -185,7 +185,7 @@ def showDetails():
             INFO += "Value of KURANG(" + str(i) + ")"  + ": " + str(tempKurang[0]) + "\n"
     INFO += "Sum of KURANG(i): " + str(valueKurang) + "\n"
     INFO += "Nodes Generated: " + str(total) + "\n"
-    INFO += "Time Execution: " + str(duration*1000) + " ms\n" 
+    INFO += "Time Execution: " + str(duration * 1000) + " ms\n" 
     showinfo(title = 'Details Solution', message = INFO)
 
 '''
