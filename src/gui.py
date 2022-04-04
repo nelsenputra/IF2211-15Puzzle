@@ -66,7 +66,7 @@ def solveCaller():
             print('Done')
             duration = end - start
             if ((valueKurang % 2) == 0):    
-                showinfo('Solution', 'The Solution has founded!')
+                showinfo('Solution', 'The solution has been found!')
                 puzzleInit = copy.deepcopy(psolver.puzzle)
                 moves = copy.deepcopy(psolver.solution)
                 visualize_button.place(x = 110, y = 220)
