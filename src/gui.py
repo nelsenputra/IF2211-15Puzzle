@@ -177,15 +177,15 @@ def visualize():
 ** Button untuk menampilkan detail dari solusi
 '''
 def showDetails():
-    INFO = ">>>>>>KURANG(i)<<<<<<\n"
+    INFO = "====== KURANG(i) ======\n"
     for i in range(1, 17):
         if (i < 16):
-            INFO += "Value KURANG(" + str(i) + ") "  + ": " + str(tempKurang[i]) + "\n"
+            INFO += "Value of KURANG(" + str(i) + ")"  + ": " + str(tempKurang[i]) + "\n"
         else:
-            INFO += "Value KURANG(" + str(i) + ") "  + ": " + str(tempKurang[0]) + "\n"
-    INFO += "Sum of KURANG(i) : " + str(valueKurang) + "\n"
-    INFO += "Nodes Generates : " + str(total) + "\n"
-    INFO += "Time Execution : " + str(duration*1000) + " ms\n" 
+            INFO += "Value of KURANG(" + str(i) + ")"  + ": " + str(tempKurang[0]) + "\n"
+    INFO += "Sum of KURANG(i): " + str(valueKurang) + "\n"
+    INFO += "Nodes Generated: " + str(total) + "\n"
+    INFO += "Time Execution: " + str(duration*1000) + " ms\n" 
     showinfo(title = 'Details Solution', message = INFO)
 
 '''
