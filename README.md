@@ -45,11 +45,11 @@ The whole program was written in Python.
 ### Execution
 1. Clone this repository in your own local directory
 
-    `git clone https://github.com/nelsenputra/Tucil3_13520130.git`
+    `git clone https://github.com/nelsenputra/IF2211-15Puzzle.git`
 
-2. Open the command line and change the directory to 'Tucil3_13520130' folder
+2. Open the command line and change the directory to 'IF2211-15Puzzle' folder
 
-    `cd Tucil3_13520130`
+    `cd IF2211-15Puzzle`
     
 3. Run `python gui.py` on the command line
 
